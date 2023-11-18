@@ -1,0 +1,17 @@
+
+1. Create a database based on this columns
+
+Patient data
+ - Patient ID
+ - Patient Name
+
+Study data
+ - id 
+ - Patient ID(fk)
+ - Study Instance UID
+ - ABS File path
+ - File name
+ - count of folders
+ - count of image
+ - Imported date
+ - Archive date 
