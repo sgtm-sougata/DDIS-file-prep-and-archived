@@ -25,16 +25,26 @@ Navigate to the project directory (DDIS-Archive-file-Preparation) and edit the .
 
 ```bash
 # .env file
-dbpath = sqlite:///D:/DICOM DATABASE/DICOM IMPORT/ctkDICOM.sql
-root_dir = D:\\DICOM DATABASE\\DICOM IMPORT
-output_dir = D:\\python\\ddis zip testing
+
+# Database path
+dbpath = "sqlite:///D:/DICOM DATABASE/DICOM IMPORT/ctkDICOM.sql"
+
+# DICOM import directory path
+root_dir = "D:\\DICOM DATABASE\\DICOM IMPORT"
+
+# Output directory path for saving Archive
+output_dir = "D:\\python\\ddis zip testing"
 ```
 ### Step 5: Update script.bat File
 Edit the script.bat file with the correct paths
 
 ```bash
-REM script.bat
+# REM script.bat
+
+# Project Virtual env path
 set VENV_PATH=D:\python\FIle prep DDIS\venv\Scripts\activate
+
+# Add start (where main.py) path
 cd /d D:\python\FIle prep DDIS
 
 ```
